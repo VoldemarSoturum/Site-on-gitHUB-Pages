@@ -1,5 +1,7 @@
 # My profile 
+# Nickname: Voldemar Soturum 
 
+![alt-текст](https://avatars.githubusercontent.com/u/125198406?s=400&u=7d72e8ca033272aeb44d752b8fa57b7e038ccca9&v=4 "Текст заголовка логотипа 1")
 
 ## Name: 
     Ivan Chernyshev
