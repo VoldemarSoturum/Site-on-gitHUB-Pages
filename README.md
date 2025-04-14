@@ -115,7 +115,7 @@
     }
   </style>
 </head>
-
+<body>
 # My profile 
 # Nickname: Voldemar Soturum 
 
@@ -328,3 +328,4 @@ for course in courses_list:
         
         print(f'На курсе {course["title"]} есть тёзки: {", ".join(sorted(same_name_list))}')
 ```
+</body>
