@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Voldemar Soturum | Python Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
   <style>
     body {
@@ -101,8 +97,6 @@
       white-space: pre-wrap;
     }
   </style>
-</head>
-<body>
   
 # My profile 
 # Nickname: Voldemar Soturum 
@@ -316,4 +310,3 @@ for course in courses_list:
         
         print(f'На курсе {course["title"]} есть тёзки: {", ".join(sorted(same_name_list))}')
 ```
-</body>
