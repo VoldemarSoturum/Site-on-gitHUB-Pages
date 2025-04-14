@@ -1,3 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voldemar Soturum | Python Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background: black;
+      color: #00ffcc;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .glitch-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      background: radial-gradient(circle at center, #0ff 0%, #004 80%);
+      animation: cyberPulse 6s ease-in-out infinite;
+      filter: blur(2px) brightness(0.6) contrast(1.2);
+    }
+
+    @keyframes cyberPulse {
+      0%, 100% {
+        background: radial-gradient(circle at center, #0ff 0%, #004 80%);
+      }
+      50% {
+        background: radial-gradient(circle at center, #00f0ff 10%, #001122 80%);
+      }
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      z-index: 1;
+      position: relative;
+    }
+
+    .logo {
+      width: 200px;
+      border-radius: 50%;
+      transition: transform 0.5s ease, filter 0.5s ease;
+      filter: drop-shadow(0 0 10px #00ffee);
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    .logo:hover {
+      transform: scale(1.1) rotate(1deg);
+      filter: drop-shadow(0 0 20px #00ffee) brightness(1.2);
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 10px #00ffee);
+      }
+      50% {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 20px #00ffee);
+      }
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      margin-top: 1rem;
+      text-shadow: 0 0 5px #00ffee, 0 0 10px #00ffee;
+      animation: flicker 1.5s infinite alternate, shake 0.1s infinite;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.8; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes shake {
+      0% { transform: translate(0px, 0px); }
+      25% { transform: translate(1px, -1px); }
+      50% { transform: translate(-1px, 1px); }
+      75% { transform: translate(1px, 1px); }
+      100% { transform: translate(-1px, -1px); }
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      color: #ff00cc;
+      text-shadow: 0 0 5px #ff00cc;
+      font-size: 2rem;
+    }
+
+    pre {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+      border: 1px solid #00ffee;
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
 # My profile 
 # Nickname: Voldemar Soturum 
 
